@@ -108,7 +108,9 @@ if __name__ == "__main__":
     #     print generator1.make_text(chain_dict)
     # pass
 
-print api.VerifyCredentials()
+#print api.VerifyCredentials()
+
+
 
 status = api.PostUpdate(generator1.make_text(chain_dict))
 print status.text
